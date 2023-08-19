@@ -4,7 +4,8 @@ def value(question):
     return(question)
 
 #creating a string where the user can ask a question as input 
-question = (input("What is your question? "))
+answer = input("Question:    ")
+
 
 #create a list
 num = ["Yes - definitely", 

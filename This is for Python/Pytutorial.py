@@ -254,3 +254,11 @@ if grade < 75:
     #For example, any number from 100, 103, 106 … 994, 997.
 #random.sample(range(0,1000),10) - returns a list of random numbers.
 #secrets.randbelow(10)- returns a secure random number
+#random.choice - put this on the part before printing. This will allow you to have a random answer from a sequence - can be a string,list or tuple.
+# random.choice(list) - Choose a random item from a sequence. Here seq can be a list, tuple, string, or any iterable like range.
+#random.choices(list, k=3) - Choose multiple random items from a list, set, or any data structure.
+#random.choice(range(10, 101)) - Pick a single random number from range 1 to 100
+#random.getrandbits(1) - Returns a random boolean
+#random.choice(list(dict1))	- Choose a random key from a dictionary
+#np.random.choice()	- Return random choice from a multidimensional array
+#secrets.choice(list1) - Choose a random item from the list securely 

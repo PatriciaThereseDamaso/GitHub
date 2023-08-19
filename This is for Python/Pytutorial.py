@@ -243,3 +243,14 @@ if grade < 75:
 #else statements - if the condition is 'True', code in "if" is executed.
 #if the condition is "False", conde in the "else" is executed.
 
+
+#random function -  is a command that gives a random value from a given list.
+#random.randint() - is a command that returns any random number or integer in range (a,b) including both ends.
+    #example - random.randint(1,8) - it will return a random value from 1 to 8.
+#random.randrange() - is a command that reuturns a random number from a range .
+    #example - random.ranrange(20)- it will return a random value from 0 to 19.
+    #example - random.randrange(1,20) - it will return a random value from 1 to 19.
+#random.randrange(100,1000, 3) - Returns any random integer from 100 to 999 with step 3.
+    #For example, any number from 100, 103, 106 … 994, 997.
+#random.sample(range(0,1000),10) - returns a list of random numbers.
+#secrets.randbelow(10)- returns a secure random number

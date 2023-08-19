@@ -230,3 +230,16 @@ print('BMI:', BMI)
 #search BMI.py for more complex coding
 #remember: adding define(def) will make a function 
 #remember : return function allows to return a value on the define function 
+
+
+#If statements - use to test whether a condition is true.
+#if the condition evaluates 'True', the code in the part is executed.
+#if 'False', the code is skipped.
+#example
+grade = 75
+if grade < 75:
+  print("You passed!")
+
+#else statements - if the condition is 'True', code in "if" is executed.
+#if the condition is "False", conde in the "else" is executed.
+

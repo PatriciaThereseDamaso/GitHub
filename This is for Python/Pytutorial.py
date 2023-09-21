@@ -67,7 +67,7 @@ name = 'Pat'
 #print the variable
 print(name)
 
-# (2) Create a variable with an number as value 
+# (2) Create a variable with a number as value 
 age = 18
 
 #print the variable 

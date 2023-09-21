@@ -30,11 +30,11 @@ print('Your BMI is:', bmi)
 
 #we'll use the conditions 
 if bmi <= 18.5:
-    print("You're underweight,", Username)
+    print("You're underweight,")
 elif 18.6 < bmi < 24.99:
-    print("You're BMI is Normal,", Username)
+    print("You're BMI is Normal,")
 elif 25 < bmi < 29.29:
-    print("You're overweight,", Username)
+    print("You're overweight,")
 else:
-    print("You're obese,", Username)
+    print("You're obese,")
 

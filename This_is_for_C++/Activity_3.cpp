@@ -2,17 +2,19 @@
 
 using namespace std;
 
-int main ()
-{
-    int n = 1;
-
-    for (n = 3;n<=30;n++)
+int main(){
+    int num = 1;
+    do
     {
-        
-        if (n % 3 == 1){
-            continue;
+        if (num % 3 ==0){
+            cout << num << "\n";
+            num++;
         }
-
-    cout << n <<endl;
+        else{
+            num ++;
+        }
     }
+    while (num <= 30);
+
+    return 0;
 }

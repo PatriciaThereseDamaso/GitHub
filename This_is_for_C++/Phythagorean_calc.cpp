@@ -1,3 +1,8 @@
+/*
+Activity: Pythagorean Calculator
+Description: Using cmath library for power function ; using squareroot function
+*/
+
 #include <iostream>
 #include <cmath>
 

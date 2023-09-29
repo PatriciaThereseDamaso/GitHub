@@ -1,3 +1,14 @@
+/*
+Activity: Print all odd numbers from 0 to 30 
+Description: Usage of For Loop; nested if-else statements
+
+Format:
+
+for (iteration bounds)
+
+    if (condition)
+*/
+
 #include <iostream>
 #include <cmath>
 

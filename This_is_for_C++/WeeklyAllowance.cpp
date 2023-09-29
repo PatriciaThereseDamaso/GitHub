@@ -1,3 +1,8 @@
+/*
+*Activity: Calculating Weekly Allowance, Expenses, Savings
+* Date: September 28,2023
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -6,15 +11,9 @@ int main ()
 {
     int allowance_perday;
     int num_days;
-
-    int allowance_weekly;
-
     int foodfee_daily;
     int farefee_daily;
     int miscellaneous;
-
-    int expenses_daily; 
-    int expenses_weekly;
 
     cout << "CALCULATE WEEKLY ALLOWANCE";
 
@@ -24,7 +23,7 @@ int main ()
     cout << "Enter number of days:  ";
     cin >> num_days;
 
-    allowance_weekly = allowance_perday*num_days;
+    int allowance_weekly = allowance_perday*num_days;
     cout << "Your weekly allowance is "<<allowance_weekly<<endl;
 
     cout << "\nCALCULATE WEEKLY EXPENSES"<<endl;
@@ -38,9 +37,9 @@ int main ()
     cout << "Daily miscellaneous expenses:   ";
     cin >> miscellaneous;
 
-    expenses_daily = foodfee_daily + farefee_daily + miscellaneous;
+    int expenses_daily = foodfee_daily + farefee_daily + miscellaneous;
     cout << "\nYour daily expenses is "<<expenses_daily<<endl;
-    expenses_weekly = expenses_daily * num_days;
+    int expenses_weekly = expenses_daily * num_days;
     cout << "Your weekly expenses is "<<expenses_weekly<<endl;
 
     cout << "\nCACULATE WEEKLY SAVINGS"<<endl;

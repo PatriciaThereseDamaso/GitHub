@@ -1,3 +1,7 @@
+/*
+Activity: Print all odd numbers from 1 to 20
+Description: Usafe of for loop ; nested if-else loop
+*/
 #include <iostream>
 
 using namespace std;

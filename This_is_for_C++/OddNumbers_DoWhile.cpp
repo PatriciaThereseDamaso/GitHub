@@ -1,3 +1,13 @@
+/*
+Activity: Print all odd numbers from 1 to 30
+Description: Using Do-while loop
+
+format 
+Do
+    (code)
+while (condition)
+*/
+
 #include <iostream>
 
 using namespace std;

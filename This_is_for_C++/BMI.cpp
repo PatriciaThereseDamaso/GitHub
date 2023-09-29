@@ -1,4 +1,7 @@
-//build a simple BMI calculator using c++
+/*
+Activity: BMI calculator
+Description: Using cmath library for power function; usage of if-else statements
+*/
 
 #include <iostream> //include header library for cout
 #include <cmath> //include library for power function

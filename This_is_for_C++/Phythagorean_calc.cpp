@@ -80,10 +80,6 @@ int main(){
         }
         else{
             cout << "Invalid Input. Try again. ";
-            cout << "\nChoose your calculator:  \n";
-            cout << "1 - hypotenuse\n2 - leg 1\n3 - leg 3 ";
-            cout << "\nYour answer:    ";
-            cin >> answer;
 
         }
 

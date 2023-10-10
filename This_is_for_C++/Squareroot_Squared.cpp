@@ -1,11 +1,12 @@
 /*
 Activity: Simple power and square root 
-Description: Usage of <cmath> or <math.h> library
+Description: Usage of <cmath> or <math.h> library for power, and <iomanip> library for setprecision
 Date: September 29,2023
 */
 
 #include <iostream>
 #include <math.h>
+#include <iomanip>
 
 using namespace std;
 
@@ -24,6 +25,7 @@ int main ()
         float sqrroot = sqrt(squared);
 
         cout << "Squared value :"<<squared<<endl;
+        cout << setprecision(3);
         cout << "Square root of value:  "<<sqrroot;
 
     return 0;

@@ -5,6 +5,7 @@ Description: Using cmath library for power function ; using squareroot function
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main(){
     cout << "Enter your name:   ";
     cin >> name;
     cout << "Hello,"<<name<<"   this is a pythagorean calculator.";
+
     cout << "\nChoose your calculator:  \n";
     cout << "1 - hypotenuse\n2 - leg A\n3 - leg B ";
     cout << "\nYour answer:    ";
@@ -44,7 +46,7 @@ int main(){
             result = sqrt(legA_square + legB_square);
 
             Result = (result);
-            cout << "Hypotenuse length: "<<result<<"";
+            cout << "Hypotenuse length: "<<setprecision(2) <<result<<"";
         }
         else if (answer == 2){//calculating for leg A
             cout << "You're now calculating for leg A.\n";
@@ -60,7 +62,7 @@ int main(){
             result = sqrt(legB_square + hypotenuse_square);
 
             Result = (result);
-            cout << "Leg A length:  "<<Result<<"";
+            cout << "Leg A length:  "<<setprecision(2)<<Result<<"";
         }
         else if (answer == 3){ //calculating for leg B
             cout << "You're now calculating for leg B.\n";
@@ -76,16 +78,13 @@ int main(){
             result = sqrt (legA_square + hypotenuse_square);
 
             Result = (result);
-            cout << "Leg B length:  "<<result<<"";
+            cout << "Leg B length:  "<<setprecision(2)<<result<<"";
         }
         else{
             cout << "Invalid Input. Try again. ";
 
         }
 
-        
-
-
-
+return 0;
 
 }

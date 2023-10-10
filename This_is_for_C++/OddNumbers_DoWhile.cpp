@@ -1,5 +1,5 @@
 /*
-Activity: Print all odd numbers from 1 to 30
+Activity: Print all multiples of 3 numbers from 1 to 30
 Description: Using Do-while loop
 
 format 

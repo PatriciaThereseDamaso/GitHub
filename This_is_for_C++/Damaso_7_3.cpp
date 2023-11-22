@@ -15,7 +15,7 @@ int main(){
     cout << "Enter two positive integers: "; 
     cin >> a >> b; 
  
-    cout << "HCF of " << a << " " << b << " is " << HCF(a,b)<<endl; 
+    cout << "Highest Common Factor of " << a << " " << b << " is " << HCF(a,b)<<endl; 
  
 return 0; 
 } 

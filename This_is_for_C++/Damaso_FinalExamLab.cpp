@@ -8,7 +8,7 @@ using namespace std;
 
 string Captcha() {
     string captchacode;
-    srand(static_cast<unsigned int>(time(nullptr)));
+
         for (int i = 0; i < 6; ++i) {
         char randomChar;
 
@@ -32,7 +32,7 @@ bool isValidEmail(const string& email) {
     size_t atPosition = email.find('@');
     size_t dotPosition = email.find(".com");
 
-    return atPosition != std::string::npos && dotPosition != std::string::npos && dotPosition > atPosition;
+    return atPosition != string::npos && dotPosition != string::npos && dotPosition > atPosition;
 }
 
 bool Passwordvalidation(const string& password) {
@@ -119,11 +119,13 @@ int main() {
             case 2: {
 
                 string Username, Password;
-                cout << "\nEnter your username: ";
-                cin >> Username;
+                do{
+                    cout << "\nEnter your username: ";
+                    cin >> Username;
 
-                cout << "Enter your password: ";
-                cin >> Password;
+                    cout << "Enter your password: ";
+                    cin >> Password;
+                } while(Username != username && Password != password);
 
                 if (Username == username && Password == password) {
                     cout << "Sign in successful!\n\n";
@@ -153,6 +155,8 @@ int main() {
 
                         switch (SBChoice) {
                             case 1:{
+                                
+                                while (Moneyplayer !=0 || bankerMoney != 0){
                                 cout << setw(25) << "Playing Lucky 9\n";
 
                                 cout << left << setw(15) << "Player's Name: " << left << setw(10) << Username << left << setw(20) << "Banker's Name : FEU TECH\n";
@@ -162,7 +166,6 @@ int main() {
 
                                 if (AmountBET <= 0 || AmountBET > Moneyplayer || AmountBET > bankerMoney) {
                                     cout << "Invalid bet amount. Try again. \n";
-                                    break;
                                 }
 
                                 // Draw 2 cards for player and banker
@@ -192,15 +195,14 @@ int main() {
                                     cout << "PLAYER LOSES!\n\n";
                                     Moneyplayer -= AmountBET;
                                     bankerMoney += AmountBET;
+
                                 } else {
                                     cout << "It's a DRAW!\n\n";
                                 }
-
-                                // Check if the game is over
                                 if (Moneyplayer <= 0 || bankerMoney <= 0) {
                                     cout << "GAME OVER!\n\n";
                                     cout << "TOTAL WINS: " << playerWins << "\n\n";
-                                    return 0; // Exit the program
+                                }
                                 }
                                 break;
                             }

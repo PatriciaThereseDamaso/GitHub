@@ -1,21 +1,23 @@
-#include <iostream> 
-#include <iomanip> 
-#include <cmath> 
-  
-using namespace std; 
-  
-int HCF(int first, int second){ 
-    if (second==0) 
-    return first; 
-    return HCF(second, first%second); 
-} 
-  
-int main(){ 
-    int a, b, hcf; 
-    cout << "Enter two positive integers: "; 
-    cin >> a >> b; 
- 
-    cout << "HCF of " << a << " " << b << " is " << HCF(a,b)<<endl; 
- 
-return 0; 
-} 
+#include <iostream>
+
+void printArray(int* arr, int size) {
+    for (int i = 0; i < size; i++) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+}
+
+int main() {
+    int size = 5;
+    int* dynamicArray = new int[size];
+
+    for (int i = 0; i < size; i++) {
+        dynamicArray[i] = i + 1;
+    }
+
+    printArray(dynamicArray, size);
+
+    delete[] dynamicArray;
+
+    return 0;
+}

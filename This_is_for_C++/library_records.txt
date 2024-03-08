@@ -1,0 +1,9 @@
+Dune,101001,Frank Herbert,BSCE,1978
+DUNE Messiah,12023,Frank Herbert,BSCE,1979
+Dune Messiah,12023,Frank Herbert,BSCE,1979
+DUNE Messiah,12023,Frank Herbert,BSCE,1979
+God Emperor of Dune,22023,Frank Herbert,BSCE,202
+God Emperor of Dune,12023,FrankHerbert,BSECE,1979
+DUNE,12024,Frank Herbert,BSECE,1979
+Dune,1,Frank Herbert,BSCE,1979
+Dune,12024,Frank Herbert,BSCE,1979

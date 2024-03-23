@@ -1,9 +1,47 @@
-Dune,101001,Frank Herbert,BSCE,1978
-DUNE Messiah,12023,Frank Herbert,BSCE,1979
-Dune Messiah,12023,Frank Herbert,BSCE,1979
-DUNE Messiah,12023,Frank Herbert,BSCE,1979
-God Emperor of Dune,22023,Frank Herbert,BSCE,202
-God Emperor of Dune,12023,FrankHerbert,BSECE,1979
-DUNE,12024,Frank Herbert,BSECE,1979
-Dune,1,Frank Herbert,BSCE,1979
-Dune,12024,Frank Herbert,BSCE,1979
+Dune ,220078,Frank Herbert,BSCS,1978,AVAILABLE
+Dune Messiah,220181,Frank Herbert,BSCS,1981,AVAILABLE
+Children of Dune,220282,Frank Herbert,BSCS,1982,AVAILABLE
+God Emperor of Dune,220386,Frank Herbert,BSCS,1986,AVAILABLE
+Heretics of Dune,220489,Frank Herbert,BSCS,1989,AVAILABLE
+Chapterhouse: Dune,220591,Frank Herbert,BSMMA,1991,AVAILABLE
+Del Rey House Atreides,220695,Brian Herbert,BSCS,1995,AVAILABLE
+Del Rey House Harkonnen,220798,Brian Herbert,BSCS,1998,AVAILABLE
+Del Rey House Corrino,220800,Brian Herbert,BSCS,2000,AVAILABLE
+Dune: The Butlerian Jihad,220903,Kevin Anderson,BSMMA,2003,AVAILABLE
+Dune: The Machine Crusade,221004,Kevin Anderson,BSMMA,2004,AVAILABLE
+Dune: The Battle of Corrin,221106,Kevin Anderson,BSMMA,2006,AVAILABLE
+Hunters of Dune,221204,Brian Herbert,BSCS,2004,AVAILABLE
+Sandworms of Dune,221306,Brian Herbert,BSCS,2006,AVAILABLE
+Paul of Dune,221406,Brian Herbert,BSCS,2006,AVAILABLE
+The Winds of Dune,221507,Brian Herbert,BSCS,2007,AVAILABLE
+Sisterhood of Dune,221607,Kevin Anderson,BSCS,2007,AVAILABLE
+Mentats of Dune,221705,Kevin Anderson,BSCS,2005,AVAILABLE
+Navigators of Dune,221807,Kevin Anderson,BSCS,2007,AVAILABLE
+Dune: The Duke of Caladan,221910,Brian Herbert,BSCS,2010,AVAILABLE
+Dune: Lady of Caladan,222014,Brian Herbert,BSCS,2014,AVAILABLE
+Dune: The Heir of Caladan,222114,Brian Herbert,BSCS,2014,AVAILABLE
+Princess of Dune,222215,Kevin Anderson,BSCS,2015,AVAILABLE
+Sands of Dune,222314,Brian Herbert,BSCS,2014,AVAILABLE
+Flowers of Algernon,112459,Daniel Keyes,BSCE,1959,AVAILABLE
+Tron ,112582,Steven Lisberger,BSECE,1982,AVAILABLE
+Tron: Legacy,112610,Steven Lisberger,BSECE,2010,AVAILABLE
+Tron: Ares,112724,Steven Lisberger,BSECE,2024,AVAILABLE
+Calculus for Dummies,112814,Mark Ryan,BSCE,2014,AVAILABLE
+Calculus Made Easy,112910,Silvanus Thompson,BSCE,1910,AVAILABLE
+Calculus Volume 1,113016,Gilbert Strang,BSCE,2016,AVAILABLE
+The Cartoon Guide to Calculus,113112,Larry Gonick,BSCE,2012,AVAILABLE
+The Art of Malang as Filipino,223202,Malang,BSMMA,2002,AVAILABLE
+Red is Beautiful,223321,Geral Vizenor,BSMMA,2021,AVAILABLE
+Trigonometry for Dummies,113414,Mary Hane Sterling,BSCE,2014,AVAILABLE
+Clean Code,223508,Robert Martin,BSIT,2008,AVAILABLE
+Code Complete,223693,Steve McConnell,BSIT,1993,AVAILABLE
+The C Programming Language,223783,Brian Kernighan,BSCS,1983,AVAILABLE
+The Soul of a New Machine,223881,Tracy Kidder,BSIT,1981,AVAILABLE
+Introduction to Algorithms,223989,Ronald Rivest,BSIT,1989,AVAILABLE
+Human Compatible,224019,Stuart Russell,BSCS,2019,AVAILABLE
+Deep Learning,224215,Yoshua Bengio,BSIT,2015,AVAILABLE
+The Alignment Problem,224320,Brian Christian,BSIT,2020,AVAILABLE
+Mechanical Design Engineering,114413,Peter Childs,BSME,2013,AVAILABLE
+Fundamental of Thermodynamics,114587,Richard Sonntag,BSME,1987,BORROWED
+The Ersatz Elevator,224699,Daniel Handler,BSMMA,1999,BORROWED
+The Austere Academy,224700,Daniel Handler,BSMMA,2000,BORROWED

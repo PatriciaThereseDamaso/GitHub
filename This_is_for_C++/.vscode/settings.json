@@ -5,6 +5,7 @@
         "iomanip": "cpp",
         "ios": "cpp",
         "istream": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "ostream": "cpp"
     }
 }

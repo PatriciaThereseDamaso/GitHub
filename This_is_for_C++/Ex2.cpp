@@ -275,6 +275,7 @@ void addBook() {
         cout << "                   ADD BOOK" << endl;
         cout << "================================================" << endl;
 
+        // Create a new book node
         Book* newBook = new Book;
         newBook->next = nullptr;
 
@@ -296,25 +297,26 @@ void addBook() {
         cin >> newBook->publicationYear;
 
         // Validate book details
-        if (newBook->title.empty() || newBook->bookID <= 0 || newBook->author.empty() || newBook->course.empty() || newBook->publicationYear <= 0) {
+        if (newBook->title.empty() || newBook->bookID <= 0 || newBook->author.empty() || newBook->course.empty() || newBook->publicationYear <= 0 ) {
             cerr << "\nInvalid book details. Please ensure all fields are filled correctly." << endl;
-            delete newBook; 
-            continue; 
+            delete newBook; // Free allocated memory
+            continue; // Skip to the next iteration
+        }
 
-        // Add new book to list
+        // Add new book to the linked list
         if (head == nullptr) {
             head = newBook;
         } else {
-            // Traversing and finding the book 
+            // Traverse and find the last book 
             Book* current = head;
             while (current->next != nullptr) {
                 current = current->next;
             }
-            // newBook on end of the list
+            // Add the new book to the end of the list
             current->next = newBook;
         }
 
-        // Append details to "library_records.txt" file
+        // Append details to the "library_records.txt" file
         ofstream shelf("library_records.txt", ios::app);
         if (shelf.is_open()) {
             shelf << newBook->title << "," << newBook->bookID << "," << newBook->author << "," << newBook->course << "," << newBook->publicationYear << endl;
@@ -323,6 +325,7 @@ void addBook() {
         } else {
             cerr << "\nUnable to open file for writing! Book details not saved." << endl;
             delete newBook; 
+            break; 
         }
 
         cout << "\nDo you want to insert more books? (Y/N): ";
@@ -330,14 +333,12 @@ void addBook() {
 
     } while (choice == 'Y');
 
-    displayBook(); 
-
+    displayBook(); // Display all books after adding
 }
 
 void deleteBook() {
 
 }
-
 void displayBook() {
     ifstream shelf("library_records.txt");
     if (shelf.is_open()) {
@@ -363,7 +364,6 @@ void displayBook() {
         }
         shelf.close();
     }
-    
     else {
         cerr << "Unable to open file for reading!" << endl;
     }
